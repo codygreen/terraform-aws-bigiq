@@ -15,7 +15,7 @@ This modules supports Terraform 0.12 and higher
 
 ## Examples
 We have provided some common deployment examples below.  However, if you would like to see full end-to-end examples with the creation of all required objects check out the [examples] folder in the GitHub repository.
-### Example 1-NIC Deployment PAYG
+### Example 2-NIC Deployment with 1 Master and 1 DCD
 ```hcl
 module bigiq {
   source = "f5devcentral/bigiq/aws"
